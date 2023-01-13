@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Tribute Page</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Jack Kerouac</h1>
+    <p id="description"><i>The soul of the Beat Generation</i></p>
+  </header>
+
+  <div id="menu">
+  <nav>
+    <ul>
+      <li name="menu"><a href="#life">Life</a></li>
+      <li name="menu"><a href="#bibliography">Bibliography</a></li>
+      <li name="menu"><a href="#trivia">Trivia</a></li>
+    </ul>
+  </nav>
+  </div>
+
+  <main id="main">
+    <div id="img-div">
+      <img id="image" src="https://s3.amazonaws.com/loa-production-23ffs35gui41a/writers/images/000/000/229/big/kerouac_jack_WD.jpg?1447774671" alt="Kerouac-radio">
+      <figcaption id="img-caption">Jack tuning the radio in his apartment. (Photographer: John Cohen)</figcaption>
+    </div>
+    
+    <div id="tribute-info">
+      <div id="life" name="life">
+        <h2 name="life" class="section-title">Life</h2>
+          <p class="life">Jean-Louis Lebris de Kérouac(/ˈkɛru.æk/; March 12, 1922 – October 21, 1969), known as Jack Kerouac, was an American novelist and poet who, alongside William S. Burroughs and Allen Ginsberg, was a pioneer of the Beat Generation.</p>
+          <p class="life">Of French-Canadian ancestry, Kerouac was raised in a French-speaking home in Lowell, Massachusetts. He "learned English at age six and spoke with a marked accent into his late teens."During World War II, he served in the United States Merchant Marine; he completed his first novel at the time, which was published more than 50 years after his death. His first published book was The Town and the City (1950), and he achieved widespread fame and notoriety with his second, On the Road, in 1957. It made him a beat icon, and he went on to publish 12 more novels and numerous poetry volumes.</p>
+          <p class="life">Kerouac is recognized for his style of spontaneous prose. Thematically, his work covers topics such as his Catholic spirituality, jazz, travel, promiscuity, life in New York City, Buddhism, drugs, and poverty. He became an underground celebrity and, with other Beats, a progenitor of the hippie movement, although he remained antagonistic toward some of its politically radical elements. He has a lasting legacy, greatly influencing many of the cultural icons of the 1960s, including Bob Dylan, the Beatles, Jerry Garcia and the Doors.</p>
+          <p class="life">In 1969, at the age of 47, Kerouac died from an abdominal hemorrhage caused by a lifetime of heavy drinking. Since then, his literary prestige has grown, and several previously unseen works have been published.</p>
+        <a class="top" href="#title">Back to top</a>
+      </div>
+
+      <div id="bibliography" name="bibliography">
+        <h2 name="bibliography" class="section-title">Bibliography</h2>
+        <ul class="fiction">
+        <li class="fiction"><span class="fiction-title">The Town and the City</span> (written 1946–1949; published 1950)</li>
+        <li class="fiction"><span class="fiction-title">On the Road</span> (written 1951; published 1957)</li>
+        <li class="fiction"><span class="fiction-title">The Subterraneans</span> (written 1953; published 1958)</li>
+        <li class="fiction"><span class="fiction-title">The Dharma Bums</span> (written November 1957; published 1958)</li>
+        <li class="fiction"><span class="fiction-title">Doctor Sax</span> (written June 1952; published 1959)</li>
+        <li class="fiction"><span class="fiction-title">Maggie Cassidy</span> (written Jan. 2, 1953; published 1959)</li>
+        <li class="fiction"><span class="fiction-title">Tristessa</span> (written summer 1955 and fall 1956; published 1960)</li>
+        <li class="fiction"><span class="fiction-title">Lonesome Traveler</span> (1960)</li>
+        <li class="fiction"><span class="fiction-title">Book of Dreams</span> (written 1952–1960; published 1960)</li>
+        <li class="fiction"><span class="fiction-title">Big Sur</span> (written October 1961; published 1962)</li>
+        <li class="fiction"><span class="fiction-title">Visions of Gerard</span> (written January 1956; published 1963)</li>
+        <li class="fiction"><span class="fiction-title">Desolation Angels</span> (written fall 1956 and summer 1961; published 1965)</li>
+        <li class="fiction"><span class="fiction-title">Satori in Paris</span> (1966)</li>
+        <li class="fiction"><span class="fiction-title">Vanity of Duluoz</span> (written 1967; published 1968)</li>
+        </ul>
+        <a class="top" href="#title">Back to top</a>
+      </div>
+
+      <div id="trivia" name="trivia">
+        <h2 class="section=title">Trivia</h2>
+        <ul class="trivia">
+          <li class="trivia">Kerouace was a friend of Allen Ginsberg, although the two had an on-and-off friendship.</li>
+          <li class="trivia">Kerouac believed that Neal Cassidy was the reincarnation of his brother who died young.</li>
+          <li class="trivia">Once Kerouac was suggested to use marijuana to get off alcohol by Burroughs.</li>
+        </ul>
+        <a class="top" href="#title">Back to top</a>
+      </div>
+    </div>
+
+    <div id="footer">
+      <address>The information on this page is from Jack Kerouac's <a id="tribute-link" href="https://en.wikipedia.org/wiki/Jack_Kerouac" target="_blank">Wikipedia</a>.</address>
+    </div>
+  </main>
+</body>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  scroll-behavior: smooth;
+  }
+
+body {
+  font-family: "Courier New";
+  background-color: #F2EFDB;
+  color: #3C3C37;
+}
+
+header {
+  background-color: rgb(212, 209, 192);
+margin: auto auto 50px auto;
+padding: 0 3px;
+border: 3px solid #79776E;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#description {
+  font-weight: 500;
+}
+
+/* Navigation */
+
+#menu {
+  text-align: center;
+  margin-right: 30px;
+}
+
+nav > ul > li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color:#3C3C37;
+  margin: 0 20px;
+  padding: 0 10px;
+  font-weight: 800;
+  border-bottom: 1px dashed #3C3C37;
+}
+
+/* Change the link color on hover */
+
+li a:hover {
+  background-color: #3C3C37;
+  color: rgb(212, 209, 192);
+}
+
+/* image */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 70%;
+  margin: 50px auto 10px auto;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+#life {
+  margin: 50px 0;
+  padding: 10px 30px;
+  border: 3px dashed #79776E;
+}
+
+.life {
+  text-indent: 40px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.top {
+  float: right;
+  background-color: rgb(212, 209, 192);
+  text-decoration: none;
+  color: #3C3C37;
+}
+
+.top:hover {
+  background-color: #3C3C37;
+  color: rgb(212, 209, 192);
+}
+
+#bibliography {
+  margin: 50px 0;
+  padding: 10px 30px;
+  border: 3px dashed #79776E;
+}
+
+.fiction {
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.fiction-title {
+  font-weight: 600;
+}
+
+#trivia {
+  margin: 50px 0;
+  padding: 10px 30px;
+  border: 3px dashed #79776E;
+}
+
+.trivia {
+  line-height: 30px;
+  font-weight: 500;
+}
+
+address {
+  text-align: center;
+}
+
+</html>
